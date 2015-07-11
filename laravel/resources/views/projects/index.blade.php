@@ -1,11 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Page Title')
+@section('title', 'Index')
 
 @section('sidebar')
     @parent
 
-    <p>This is appended to the master sidebar.</p>
+    <p>Index Sidebar!</p>
 @stop
 
 @section('content')

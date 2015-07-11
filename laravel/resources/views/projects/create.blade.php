@@ -1,13 +1,13 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Victor
- * Date: 11/07/2015
- * Time: 19:19
- */
+@extends('layouts.master')
 
-@extends('app')
+@section('title', 'Create')
+
+@section('sidebar')
+    @parent
+
+    <p>Sidebar Create!</p>
+@stop
 
 @section('content')
-    This is my /resources/views/projects/create.blade.php file!
-@endsection
+    <p>Body função Create!</p>
+@stop
